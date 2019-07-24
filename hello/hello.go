@@ -500,6 +500,7 @@ func channel_sum() {
 func sum(a []int, c chan int) {
 	sum := 0
 	fmt.Println(a)
+	// first element is index, second is the value
 	for _, v := range a {
 		sum += v
 	}
